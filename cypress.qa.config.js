@@ -1,10 +1,8 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: "dyvum4",
   e2e: {
-    baseUrl: "https://www.saucedemo.com",
-    projectId: "udm4xr",
+    baseUrl: "https://qa.saucedemo.com",
     env: {
       nombreUsuario: 'standard_user',
       claveUsuario: 'secret_sauce'
